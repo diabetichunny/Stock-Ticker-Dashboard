@@ -26,7 +26,7 @@ matplotlib==2.2.2
 nbformat==4.4.0
 numpy==1.14.4
 pandas==0.23.0
--e git+https://github.com/pydata/pandas-datareader.git
+-e git+https://github.com/pydata/pandas-datareader.git#egg=pandas-datareader
 plotly==2.7.0
 pyparsing==2.2.0
 python-dateutil==2.7.3
