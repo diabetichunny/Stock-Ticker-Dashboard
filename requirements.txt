@@ -26,6 +26,7 @@ matplotlib==2.2.2
 nbformat==4.4.0
 numpy==1.14.4
 pandas==0.23.0
+pipenv==2018.7.1
 -e git+https://github.com/pydata/pandas-datareader.git#egg=pandas-datareader
 plotly==2.7.0
 pyparsing==2.2.0
@@ -38,5 +39,7 @@ retrying==1.3.3
 six==1.11.0
 traitlets==4.3.2
 urllib3==1.22
+virtualenv==16.0.0
+virtualenv-clone==0.3.0
 Werkzeug==0.14.1
 wrapt==1.10.11
