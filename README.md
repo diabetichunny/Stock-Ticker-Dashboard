@@ -1,3 +1,5 @@
 # Stock-Ticker-Dashboard
-A simple stock tIcker dashboard that shows the stock closing prices of multiple companies at the same time. 
+A simple stock ticker dashboard that shows the stock closing prices of multiple companies at the same time. 
+
+Using Plotly's Dash Framework and pandas-datareader library.
 
