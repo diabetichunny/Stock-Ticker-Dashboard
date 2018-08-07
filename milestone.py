@@ -43,15 +43,22 @@ app.layout = html.Div([
                 start_date=datetime.now() - timedelta(31),
                 end_date=datetime.now()
             ),
+            html.Br(),
+            html.Br(),
             html.Button(id='submit-button', n_clicks=0, children='See Stock Values',
-                        style={'font-size': '16px', 'marginLeft': 10}),
+                        style={'font-size': '14px'}),
+            html.A(
+                children=html.Button(children='Source in GitHub', style={'font-size': '14px', 'marginLeft': 10}),
+                href='https://github.com/diabetichunny/Stock-Ticker-Dashboard',
+                target='_blank'
+            )
         ], style={'width': '40%', 'display': 'inline-block'}),
     ]),
     html.Br(),
     dcc.Graph(
         id='stock-plot'
     )
-])
+], className='six.columns')
 
 
 @app.callback(Output('stock-plot', 'figure'), [Input('submit-button', 'n_clicks')],
